@@ -67,7 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
     val.each do |k, v|
       # puts '  ' + k.to_s.titleize + ': ' + v.join(', ')
       hi = k.to_s
-      puts hi.titleize
+      puts 'hi_hi'.titleize
     end 
   end 
       
