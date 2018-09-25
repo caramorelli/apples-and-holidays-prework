@@ -73,7 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
           new_k << ' '
         end 
       end 
-      new_k = new_k.join('').capitalize!
+      new_k = new_k.capitalize!
       puts '  ' + new_k + ': ' + v
     end 
   end 
