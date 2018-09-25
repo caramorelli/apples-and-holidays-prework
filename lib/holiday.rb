@@ -74,7 +74,7 @@ def all_supplies_in_holidays(holiday_hash)
         end 
       end 
       new_k = new_k.join('').capitalize!
-      puts 
+      puts '  ' + new_k + ': ' + v
     end 
   end 
       
