@@ -65,6 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts key 
     puts val 
     print val.values.flatten
+    puts ''
     # key.each do |k, v|
   end 
       
