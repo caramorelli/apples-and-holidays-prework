@@ -64,7 +64,8 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |key, val|
     puts key 
     key.each do |k, v|
-      puts k
+      puts k 
+      puts v
     end 
   end 
       
