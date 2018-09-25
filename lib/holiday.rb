@@ -68,8 +68,8 @@ def all_supplies_in_holidays(holiday_hash)
       new_k = k.to_s
       if new_k.chars.include?('_')
       else 
-        new_k = new_k.capitalize!
-      # puts '  ' + k.to_s.capitalize + ': ' + v.join(', ')
+        new_k = new_k.capitalize! + ': ' + v.join(', ')
+      end 
     end 
   end 
       
