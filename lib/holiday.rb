@@ -67,7 +67,8 @@ def all_supplies_in_holidays(holiday_hash)
     val.each do |k, v|
       new_k = k.to_s
       if new_k.chars.include?('_')
-        new_k = new_k.chars.collect! { |char| char.replace(' ') if char == '_'  }
+        new_k = (new_k.chars.collect! { |char| char.replace(' ') if char == '_'  }).join('')
+        
       end 
       puts '  ' + new_k.capitalize! + ': ' + v.join(', ')
       
