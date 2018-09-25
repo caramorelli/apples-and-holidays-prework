@@ -74,7 +74,7 @@ def all_supplies_in_holidays(holiday_hash)
         end 
       end 
       new_k = new_k.split(' ').each {|word| word.capitalize!}
-      puts '  ' + new_k.join('') + ': ' + v.join(', ')
+      puts '  ' + new_k.join(' ') + ': ' + v.join(', ')
     end 
   end 
       
