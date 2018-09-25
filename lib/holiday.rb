@@ -83,6 +83,8 @@ holiday_hash = {
       :memorial_day => ["BBQ"]
     }
   }
+  
+ all_supplies_in_holidays(holiday_hash) 
 
 
 
