@@ -69,9 +69,10 @@ def all_supplies_in_holidays(holiday_hash)
       k.to_s.split('').each do |char| 
         if char != '_'  
           new_k << char
+        else 
+          new_k << ' '
         end 
       end 
-      
     end 
   end 
       
