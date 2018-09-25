@@ -80,6 +80,7 @@ def all_holidays_with_bbq(holiday_hash)
   bbq_arr = []
   holiday_hash.each do |val, key|
     key.each do |k, y|
+      bbq_arr << k if y.include?("BBQ")
     end 
     
   end 
