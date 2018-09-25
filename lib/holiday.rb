@@ -67,6 +67,8 @@ def all_supplies_in_holidays(holiday_hash)
     val.each do |k, v|
       new_k = k.to_s
       if new_k.chars.include?('_')
+      else 
+        new_k.capitalize!
       # puts '  ' + k.to_s.capitalize + ': ' + v.join(', ')
     end 
   end 
