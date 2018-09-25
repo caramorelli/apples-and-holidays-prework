@@ -66,7 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts key.to_s.capitalize! + ':'
     val.each do |k, v|
       new_k = ''
-      new_k = kto_s.split('').each {   }
+      new_k = k.to_s.split('').each {   }
       
     end 
   end 
